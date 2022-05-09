@@ -1,0 +1,12 @@
+@import "animate.css";
+
+$animation-duration: 1s;
+$animation-delay-per-letter: 0.1s;
+
+
+.animated-letter {
+  animation-name: flipInY;
+  animation-duration: 4s;
+
+  
+}

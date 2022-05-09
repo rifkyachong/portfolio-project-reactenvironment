@@ -1,0 +1,13 @@
+@import "animate.css";
+
+.animated-letter {
+  --animation-delay-per-latter: 0.1s;
+  display: inline-block;
+  animation-name: bounceIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-delay: calc(var(--animation-delay-per-latter) * var(--animation-index));
+}
+
+
+
