@@ -1,4 +1,4 @@
-import "./CustomAnimatedText.css";
+import "./styles/CustomAnimatedText.css";
 import React from "react";
 
 export default function CustomAnimatedMultilineText({ children }) {

@@ -1,10 +1,11 @@
-// import ProjectCard from "./ProjectCard";
-import Home from "./Home";
+import "./App.css";
+import Sidebar from "./components/Sidebar";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="app-container">
-      <Home />
+    <div className="app-container d-flex">
+      <Sidebar />
     </div>
   );
 }
