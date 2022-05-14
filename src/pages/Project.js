@@ -1,5 +1,6 @@
 import React from "react";
 import CustomAnimatedMultilineText from "../components/CustomAnimatedText";
+import ProjectCard from "../components/ProjectCard";
 
 export default function Project() {
   return (
@@ -7,6 +8,7 @@ export default function Project() {
       <CustomAnimatedMultilineText>
         <h2>My Project</h2>
       </CustomAnimatedMultilineText>
+      <ProjectCard />
     </div>
   );
 }
