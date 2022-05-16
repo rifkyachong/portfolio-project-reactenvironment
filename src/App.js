@@ -6,13 +6,15 @@ import Project from "./pages/Project";
 import "./App.css";
 
 function App() {
+  console.log("app rendered!!");
+
   return (
     <div className="app-container">
       <BrowserRouter>
         <Sidebar />
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
-          <Route exact path="/projects" element={<Project />}></Route>
+          <Route path="/projects" element={<Project />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

@@ -7,7 +7,8 @@ export default function ProjectCard() {
     <div className="card project-card-container">
       <div className="top-section">
         <div className="thumbnail-container">
-          <img src="sampleimg3.jpg" />
+          <img src="sampleimg.JPG" />
+          <div className="overlay"></div>
           <div className="project-links">
             <a
               href="http://youtu.be/ivhT8GatMLs"
